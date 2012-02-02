@@ -1,1 +1,9 @@
-/etc/cron.d/rawdog
+# Run every 9 minutes
+*/9 * * * *	rawdog	export LC_ALL=fr_FR.UTF-8 && cd ~/ && /usr/bin/rawdog -d ~/ -u -w 2>> errors
+
+# Make sure we have the latest feeds, imported from akregator
+# if there is a klink/feeds.opml, compare it with the current one
+30 * * * *	root	cd /home/rawdog && if [ -e /home/klink/feeds.opml ]; then if [ ! -e feeds.opml ] || [ "`diff /home/klink/feeds.opml feeds.opml`" != "" ]; then scripts/opml_to_rawdog.pl /home/klink/feeds.opml > feeds ; fi ; fi 
+
+# Once per week, clean up
+10 2 * * 7	rawdog	rm -f ~/errors && find ~/ -name "index-*.html" ! -newer ~/index.html | xargs rm

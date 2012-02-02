@@ -1,0 +1,7 @@
+
+<a href="__url__" class="item__if_group__ item__group____endif__">
+  <span class="itemhead__if_group__ itemhead__group____endif__">__title_no_link__</span>
+  <span class="iteminfo__if_group__ iteminfo__group____endif__"
+  __if_date__ title="Du __date__"__endif__>__feed_title_no_link__</span>
+  __description__
+</a>

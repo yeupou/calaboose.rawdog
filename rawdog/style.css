@@ -1,0 +1,146 @@
+/* PAGE */
+html {
+    margin: 0;
+    padding: 0.5em;
+}
+body {
+    color: black;
+    background-color: #dddddd;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer {
+    clear: both;
+    background-color: #faf8cf;
+    border: 1px solid gray;
+    color: gray;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 3em;
+    font-size: xx-small;
+}
+
+#navigation {
+    position: absolute;
+    left: 5px;
+    top: 8em;
+    width: 8em;
+    font-size: xx-small;
+    background-color: #faf8cf;
+    border: 1px solid gray;
+    color: black;
+}
+#navigation ul {
+    list-style-type:square;
+    padding-left: 1.5em;
+}
+
+#navigation a {
+    color: gray;
+}
+
+#navigation a:hover {
+    background-color: #faf8cf;
+    color: black;
+}
+
+#navigation a:visited {
+    background-color: #faf8cf;
+    text-decoration: line-through;
+}
+
+h2 {
+    text-align: right;
+    font-style: italic;
+}
+
+/* ITEMS */
+.item {
+    clear: right;
+    background-color: #f8f8f8;
+    border: thin solid #a6a6a6;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    -moz-border-radius: 0.5em 0.5em 0.5em 0.5em;
+    -khtml-border-radius: 0.5em 0.5em 0.5em 0.5em;
+    -webkit-border-radius: 0.5em 0.5em 0.5em 0.5em;
+    margin: 1em;
+    margin-left: 8em;
+    margin-right: 0;
+    padding: 0.5em;
+    font-size: x-small;
+    text-align : justify;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #fdfdfd;
+}
+a:visited {
+    background-color: #e2e2e2;
+    color: #686868;
+}
+
+.itemhead {
+    border: thin solid;                                          
+    border-radius: 0.5em 0em 0em 0em;
+    -moz-border-radius: 0.5em 0em 0em 0em;
+    -khtml-border-radius: 0.5em 0em 0em 0em;
+    -webkit-border-radius: 0.5em 0em 0em 0em;
+    font-size: small;
+    position: relative;
+    top: -0.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.iteminfo {
+    border: thin solid;                                 
+    float: right;
+    margin-top: 1em;
+    margin-right: -1em;
+    margin-left: 1em;
+    padding: 0;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    font-size: xx-small;
+    
+}
+
+/* ITEMS PER GROUP */
+
+/* judiciaire */
+.itemheadjudiciaire { color: white; border-color: #a86868; background-color: #dd7979; }
+.iteminfojudiciaire { border-color: #a86868; background-color: #efa9a9; } 
+
+
+/* sciences */
+.itemheadsciences { border-color: #68964a; background-color: #b7ff8c;  }
+.iteminfosciences { border-color: #68964a; background-color: #8cbb6e;  }
+
+/* civitas */
+.itemheadcivitas { border-color: #65a795; background-color: #b2ffe8;  }
+.iteminfocivitas { border-color: #65a795; background-color: #8db6ab;  }
+
+/* geek */
+.itemheadgeek { color: #e0714a; border-color: #e0714a;  background-color: #363636;  }
+.iteminfogeek { color: #e0714a; border-color: #e0714a; background-color: #212121;  }
+
+/* audiovisuel */
+.itemheadaudiovisuel { border-color: #7660a8; background-color: #a881ff;  }
+.iteminfoaudiovisuel { border-color: #7660a8; background-color: #8a7bac;  }
+
+/* lecture */
+.itemheadlecture { border-color: #78868B; background-color: #C1D7DE;  }
+.iteminfolecture { border-color: #78868B; background-color: #B1C5CC;  }
+
+/* absurde */
+.itemheadabsurde { border-color: #A8B17B; background-color: #f1ffb1;  }
+.iteminfoabsurde { border-color: #A8B17B; background-color: #e3d7a7;  }

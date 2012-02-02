@@ -32,6 +32,10 @@ a {
     font-size: xx-small;
     background-color: #faf8cf;
     border: 1px solid gray;
+    border-radius: 0 0.5em 0.5em 0;
+    -khtml-border-radius: 0 0.5em 0.5em 0;
+    -moz-border-radius: 0 0.5em 0.5em 0;
+    -webkit-border-radius: 0 0.5em 0.5em 0;
     color: black;
 }
 #navigation ul {

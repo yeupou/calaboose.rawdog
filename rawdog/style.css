@@ -6,6 +6,7 @@ html {
 body {
     color: black;
     background-color: #dddddd;
+    font-size: small;
 }
 a {
     color: black;
@@ -21,7 +22,7 @@ a {
     margin-left: 30%;
     margin-right: 10%;
     margin-top: 3em;
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 #navigation {
@@ -29,7 +30,7 @@ a {
     left: 5px;
     top: 8em;
     width: 8em;
-    font-size: xx-small;
+    font-size: x-small;
     background-color: #faf8cf;
     border: 1px solid gray;
     border-radius: 0 0.5em 0.5em 0;
@@ -75,7 +76,6 @@ h2 {
     margin-left: 8em;
     margin-right: 0;
     padding: 0.5em;
-    font-size: x-small;
     text-align : justify;
     display: block;
 }
@@ -95,7 +95,7 @@ a:visited {
     -moz-border-radius: 0.5em 0em 0em 0em;
     -khtml-border-radius: 0.5em 0em 0em 0em;
     -webkit-border-radius: 0.5em 0em 0em 0em;
-    font-size: small;
+    font-size: normal;
     position: relative;
     top: -0.8em;
     margin-left: 1em;
@@ -114,7 +114,6 @@ a:visited {
     padding: 0;
     padding-right: 0.5em;
     padding-left: 0.5em;
-    font-size: xx-small;
     
 }
 
